@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buddha-icon-wrapper {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    margin: 20px;    
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    min-width: 100px;
+    display: inline-block;
+    border: 1px solid lightblue;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom, rgba(29, 215, 248, 0.329), rgba(62, 111, 139, 0.178));
+}
+
+#buddha-icon-wrapper > img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;    
+}
+
+#menu-wrapper {
+    display: inline-block;
+}
+
+section {
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+}
+
+section > p {
+    text-align: left;
+    font-size: 20px;
+}
+
+
+section > p::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#logo-wrapper {
+    margin-top: 15px;
+}
+
+#logo-wrapper > img {
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+aside {
+    width: 30%;
+    display: inline-block;
+    position: relative; 
+    vertical-align: top;    
+}
+
+.buddha-wrapper {
+    width: 90%; 
+    display: inline-block;   
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid lightseagreen;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.buddha-wrapper > img {
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.buddha-wrapper > p {
+    font-weight: bold;
+    word-wrap: normal;
+    width: 100%;
+}
+
+
+main {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgba(198, 232, 235, 0.329), rgba(145, 168, 182, 0.178));
+}
+
+@media screen and (max-width:1024px){
+    .menu-item{
+        font-size: 25px;
+    }
+
+    aside {
+        display: block;
+        width: 75%;
+    }
+
+    section {
+        display: block;
+        width: 100%;
+    }
+}
